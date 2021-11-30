@@ -1,0 +1,85 @@
+<ion-header [translucent]="true" class="FondoCabeza">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button style="color: black;"></ion-menu-button>
+    </ion-buttons>
+    <img src="../../assets/Imagenes/LOGO GO CASTINGS NEGRO.png" alt="" class="imagen-cliente">
+    <P slot="end" style="margin-right: 12px;">CLIENTE</P>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="Fondo-Body">
+  <ion-list class="list-body">
+    <ion-item lines="none" class="item-body">
+      <h4>Maria <br> Cristina Espitia</h4>
+    </ion-item>
+    <ion-item lines="none" class="item-body">
+      <ion-slides pager="true" [options]="slideOpts">
+        <ion-slide>
+          <img src="../../assets/Imagenes/Cat1.jpg" alt="" class="Slider-imag">
+        </ion-slide>
+        <ion-slide>
+          <img src="../../assets/Imagenes/Cat2.jpg" alt="" class="Slider-imag">
+        </ion-slide>
+        <ion-slide>
+          <img src="../../assets/Imagenes/Cat3.jpg" alt="" class="Slider-imag">
+        </ion-slide>
+      </ion-slides>
+    </ion-item>
+    <ion-item lines="none" class="item-body">
+      <ion-grid>
+        <ion-row>
+          <ion-col class="ion-text-center">
+            <ion-button color="dark">
+              <ion-icon name="images-outline"></ion-icon>&nbsp;&nbsp;Galeria de Imagenes
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+<br>
+    <ion-item lines="none" class="item-body">
+      <div class="tab">
+        <button class="tablinks" style="color: white;" (click)="openCity(event, 'London')">Datos</button>
+        <button class="tablinks" style="color: white;" (click)="openCity(event, 'Paris')">D. Personal</button>
+        <button class="tablinks" style="color: white;" (click)="openCity(event, 'Tokyo')">D. Psicologica</button>
+      </div>
+    </ion-item>
+
+    <ion-item lines="none" class="item-body">
+      <div id="London" class="tabcontent">
+        <h3>Datos Basicos</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+
+      <div id="Paris" class="tabcontent">
+        <h3>Descripcion Personal</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+
+      <div id="Tokyo" class="tabcontent">
+        <h3>Descripcion Psicologica</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+    </ion-item>
+
+  </ion-list>
+</ion-content>
+<ion-footer class="item-body" lines="none">
+  <ion-toolbar class="item-body" lines="none">
+    <ion-grid>
+      <ion-row>
+        <ion-col class="ion-text-center">
+          <ion-button color="dark">
+            <ion-icon name="star-outline"></ion-icon>&nbsp;&nbsp;Favoritos
+          </ion-button> 
+        </ion-col>
+        <ion-col class="ion-text-center">
+          <ion-button color="dark">
+          <ion-icon name="storefront-outline"></ion-icon>&nbsp;&nbsp;Reservar
+        </ion-button> 
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>

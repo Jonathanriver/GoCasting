@@ -1,0 +1,176 @@
+<ion-header [translucent]="true" class="FondoCabeza">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button style="color: black;"></ion-menu-button>
+    </ion-buttons>
+    <img src="../../assets/Imagenes/LOGO GO CASTINGS NEGRO.png" alt="" class="imagen-cliente">
+    <P slot="end" style="margin-right: 12px;">CLIENTE</P>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="Fondo-Body">
+
+  <ion-list>
+    <button ion-item *ngFor="let mod of Modelos">
+      {{mod.nombre_user}} - {{mod.documento_user}}
+    </button>
+  </ion-list>
+
+  <ion-list class="list-body">
+    <ion-item lines="none" class="item-body">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="12" class="ion-text-left" (click)="Detalle()">
+            <div class="Option1">
+              <ion-row>
+                <ion-col size="6">
+                  <p class="Nombre-Usuario">Maria <br> Cristina Espitia</p>
+                  <ion-button color="dark" class="boton-detalle">Detalle</ion-button>
+                  <br>
+                  <a class="link-favorito">
+                    <ion-icon name="star-outline"></ion-icon> Favorito
+                  </a>
+                </ion-col>
+                <ion-col size="6" class="ion-text-ri">
+                  <img src="../../assets/Imagenes/Modelo2.png" alt="" class="ImagenModelo">
+                </ion-col>
+              </ion-row>
+            </div>
+
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12" class="ion-text-left" (click)="Detalle()">
+            <div class="Option2">
+              <ion-row>
+                <ion-col size="6">
+                  <p class="Nombre-Usuario">Maria <br> Cristina Espitia</p>
+                  <ion-button color="dark" class="boton-detalle">Detalle</ion-button>
+                  <br>
+                  <a class="link-favorito">
+                    <ion-icon name="star-outline"></ion-icon> Favorito
+                  </a>
+                </ion-col>
+                <ion-col size="6" class="ion-text-right">
+                  <img src="../../assets/Imagenes/Modelo2.png" alt="" class="ImagenModelo">
+                </ion-col>
+              </ion-row>
+            </div>
+
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12" class="ion-text-left" (click)="Detalle()">
+            <div class="Option3">
+              <ion-row>
+                <ion-col size="6">
+                  <p class="Nombre-Usuario">Nombre Modelo</p>
+                  <ion-button color="dark" class="boton-detalle">Detalle</ion-button>
+                  <br>
+                  <a class="link-favorito">
+                    <ion-icon name="star-outline"></ion-icon> Favorito
+                  </a>
+                </ion-col>
+                <ion-col size="6" class="ion-text-ri">
+                  <img src="../../assets/Imagenes/Modelo2.png" alt="" class="ImagenModelo">
+                </ion-col>
+              </ion-row>
+            </div>
+
+          </ion-col>
+        </ion-row>
+
+
+        <ion-row>
+          <ion-col size="12" class="ion-text-left" (click)="Detalle()">
+            <div class="Option4">
+              <ion-row>
+                <ion-col size="6">
+                  <p class="Nombre-Usuario">Nombre Modelo</p>
+                  <ion-button color="dark" class="boton-detalle">Detalle</ion-button>
+                  <br>
+                  <a class="link-favorito">
+                    <ion-icon name="star-outline"></ion-icon> Favorito
+                  </a>
+                </ion-col>
+                <ion-col size="6" class="ion-text-ri">
+                  <img src="../../assets/Imagenes/Modelo2.png" alt="" class="ImagenModelo">
+                </ion-col>
+              </ion-row>
+            </div>
+
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12" class="ion-text-left" (click)="Detalle()">
+            <div class="Option1">
+              <ion-row>
+                <ion-col size="6">
+                  <p class="Nombre-Usuario">Nombre Modelo</p>
+                  <ion-button color="dark" class="boton-detalle">Detalle</ion-button>
+                  <br>
+                  <a class="link-favorito">
+                    <ion-icon name="star-outline"></ion-icon> Favorito
+                  </a>
+                </ion-col>
+                <ion-col size="6" class="ion-text-ri">
+                  <img src="../../assets/Imagenes/Modelo2.png" alt="" class="ImagenModelo">
+                </ion-col>
+              </ion-row>
+            </div>
+
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12" class="ion-text-left" (click)="Detalle()">
+            <div class="Option1">
+              <ion-row>
+                <ion-col size="6">
+                  <p class="Nombre-Usuario">Nombre Modelo</p>
+                  <ion-button color="dark" class="boton-detalle">Detalle</ion-button>
+                  <br>
+                  <a class="link-favorito">
+                    <ion-icon name="star-outline"></ion-icon> Favorito
+                  </a>
+                </ion-col>
+                <ion-col size="6" class="ion-text-ri">
+                  <img src="../../assets/Imagenes/Modelo2.png" alt="" class="ImagenModelo">
+                </ion-col>
+              </ion-row>
+            </div>
+
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12" class="ion-text-left" (click)="Detalle()">
+            <div class="Option1">
+              <ion-row>
+                <ion-col size="6">
+                  <p class="Nombre-Usuario">Nombre Modelo</p>
+                  <ion-button color="dark" class="boton-detalle">Detalle</ion-button>
+                  <br>
+                  <a class="link-favorito">
+                    <ion-icon name="star-outline"></ion-icon> Favorito
+                  </a>
+                </ion-col>
+                <ion-col size="6" class="ion-text-ri">
+                  <img src="../../assets/Imagenes/Modelo2.png" alt="" class="ImagenModelo">
+                </ion-col>
+              </ion-row>
+            </div>
+
+          </ion-col>
+        </ion-row>
+
+      
+      </ion-grid>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>

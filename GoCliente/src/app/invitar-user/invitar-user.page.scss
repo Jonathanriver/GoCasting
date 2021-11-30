@@ -1,0 +1,85 @@
+.imagen-cliente{
+    width: 80px;
+    height: 60px;
+    margin-left: 40%;
+    margin-top: 7px;
+  }
+  
+  .imagen-cliente-dash{
+    box-shadow: -7px 5px 3px black;
+  }
+
+  .Fondo-Body{
+    --background: url(../../assets/Imagenes/Background.png) 0 0/100% 100% no-repeat;
+    
+  }
+  
+  .item-body{
+    --background: transparent;
+  }
+  
+  .Option1{
+    border-radius: 24px 24px 24px 24px;
+    background-color:  #F5A840;
+    height: 180px;
+    width: 100%;
+  }
+
+  .Option2{
+    border-radius: 24px 24px 24px 24px;
+    background-color:  #A82740;
+    height: 180px;
+    width: 100%;
+  }
+
+
+  .Option3{
+    border-radius: 24px 24px 24px 24px;
+    background-color:  #E78C93;
+    height: 180px;
+    width: 100%;
+  }
+
+  .Option4{
+    border-radius: 24px 24px 24px 24px;
+    background-color:  #6F5549;
+    height: 180px;
+    width: 100%;
+  }
+  
+  .Nombre-Usuario{
+      color: white;
+      margin-left: 15px;
+      font-size: 20px;
+    //   margin-top: 25px;
+  }
+
+  .link-favorito{
+    color: white;
+    margin-left: 15px;
+    margin-top: 20px;
+  }  
+
+  .boton-detalle{
+    margin-left: 30px;
+    font-size: 10px;
+    margin-bottom: 22px !important;
+  }
+  
+  .list-body{
+    background: transparent;
+  }
+
+  .ImagenModelo{
+    width: 130px;
+    height: 151px;
+    margin-top: 24px !important;
+    margin-left: 25px !important;
+  }
+  
+  .Campo-compartir{
+      border: solid 0.5px black;
+      border-radius: 26px;
+      padding-left: 12px !important;
+    
+  }

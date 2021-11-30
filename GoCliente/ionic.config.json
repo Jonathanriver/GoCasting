@@ -1,0 +1,7 @@
+{
+  "name": "GoApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
